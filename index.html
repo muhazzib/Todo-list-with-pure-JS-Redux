@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        li {
+            list-style: none;
+            margin: 2%
+        }
+
+        li>button {
+            float: right;
+
+        }
+
+        #inputandbtn {
+            margin: 0 auto;
+            width: 400px
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Main">
+        <div id="inputandbtn">
+
+            <input type="name" id="inputfield">
+            <button onclick="AddTodo()">Add</button>
+        </div>
+        <div id="maindiv"></div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.7.2/redux.js"></script>
+<script src="./app.js"></script>
+
+</html>
